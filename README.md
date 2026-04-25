@@ -12,7 +12,9 @@
 
 Paste this into Termux and press Enter:
 
+```
 pkg update -y && pkg install -y curl && curl -fsSL https://raw.githubusercontent.com/eranga-mohotty/termux-scripts/main/ytdlp-setup.sh | bash
+```
 
 ---
 
