@@ -46,7 +46,7 @@ pip install yt-dlp
 # 5. Create download directory
 # ----------------------------------
 echo "Creating download directories..."
-BASE_DIR="$HOME/downloads/ytdlp/yt-dlp-downs"
+BASE_DIR="$HOME/storage/downloads/ytdlp/yt-dlp-downs"
 mkdir -p "$BASE_DIR"
 
 # ----------------------------------
