@@ -29,23 +29,17 @@ if [ ! -d "$HOME/storage" ]; then
 
   echo "Storage access granted."
 fi
-# ----------------------------------
-# 2. Update & upgrade
-# ----------------------------------
-echo "Updating packages..."
-pkg update -y && pkg upgrade -y
 
 # ----------------------------------
 # 3. Install dependencies
 # ----------------------------------
 echo "Installing dependencies..."
-pkg install -y python ffmpeg termux-api
+pkg install -y python ffmpeg 
 
 # ----------------------------------
 # 4. Install yt-dlp
 # ----------------------------------
 echo "Installing yt-dlp..."
-pip install --upgrade pip
 pip install yt-dlp
 
 # ----------------------------------
