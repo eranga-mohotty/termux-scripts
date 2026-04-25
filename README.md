@@ -1,4 +1,4 @@
-🚀 Quick Setup (Android + Termux)
+🚀 Quick Setup ytdlp (Android + Termux)
 
 1. Install Termux
 
