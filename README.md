@@ -2,7 +2,7 @@
 
 1. Install Termux
 
-- Download Termux from F-Droid
+- Download Termux from [F-Droid](https://f-droid.org/en/packages/com.termux/)
 - Open F-Droid → search for Termux → install
 - Launch Termux after installation
 
